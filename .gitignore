@@ -1,5 +1,7 @@
 # Composer
 .composer
+#!bin/composer.phar
+#composer.lock
 vendor/*
 !*/vendor/*
 
@@ -43,3 +45,6 @@ tests/_output/*
 tests/_support/_generated/*
 tests/cache/*
 tests/error.log
+
+# Temp dirs
+tmp/
